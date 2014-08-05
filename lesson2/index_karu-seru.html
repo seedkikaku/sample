@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Web_sample</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/slides.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="js/responsiveslides.min.js"></script>
+  <script>
+$(function() {
+      $(".rslides").responsiveSlides({
+        auto: true,
+				speed: 500,
+        pager: false,
+        nav: false,
+      });
+	});
+  </script>
+
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+<div id="container">
+<!-- Header -->
+  <header>
+    <h1 class="logo"> <img src="images/logo.png" alt="ページ名" /> </h1>
+    <!-- Global Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#mainImage">Information</a></li>
+        <li><a href="#illustration">Illustration</a></li>
+        <li><a href="#poster">Poster</a></li>
+        <li><a href="#profile">Profile</a></li>
+      </ul>
+    </nav>
+    <!-- Eye catch image -->
+    <div id="mainImage"> 
+    <ul class="rslides">
+			<li><img src="images/1.jpg"  alt=""></li>
+			<li><img src="images/2.jpg"  alt=""></li>
+			<li><img src="images/3.jpg"  alt=""></li>
+		</ul> </div>
+  </header>
+  <!-- contents -->
+  <div id="contents">
+    <aside>
+      <h2>Information</h2>
+      
+      <section class="information"> <a href="#"><img src="images/aside1.jpg" alt="XXXXX" /></a>
+        <h3>Information1</h3>
+        <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+      </section>
+      
+      <section class="information"> <a href="#"><img src="images/aside2.jpg" alt="XXXXX" /></a>
+        <h3>Information2</h3>
+        <p>あああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+      </section>
+      
+      <section class="information last"> <a href="#"><img src="images/aside3.jpg" alt="XXXXX" /></a>
+        <h3>Information3</h3>
+        <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+      </section>
+    </aside>
+    
+    <!--article-->
+    <article>
+      <h2>Works</h2>
+      <section id="illustration">
+          <section class="Head">
+          <h3>Illustration</h3>
+          <p>Illustaratorを使用したロゴやDM、地図、イラスト、キャラクターなどの作品です</p>
+          </section>
+          
+        <section class="item"> <img src="images/illust1.jpg" alt="XXXXX" />
+          <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+        </section>
+        <section class="item"> <img src="images/illust2.jpg" alt="XXXXX" />
+          <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+        </section>
+        <section class="item last"> <img src="images/illust3.jpg" alt="XXXXX" />
+          <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+        </section>
+        <section class="item"> <img src="images/illust4.jpg" alt="XXXXX" />
+          <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+        </section>
+        <section class="item"> <img src="images/illust5.jpg" alt="XXXXX" />
+          <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+        </section>
+        <section class="item last"> <img src="images/illust6.jpg" alt="XXXXX" />
+          <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+        </section>
+      </section>
+      
+      <section id="poster">
+          <section class="Head">
+          <h3>POSTER</h3>
+          <p>コンセプトを考え作成したリデザインのPOSTERです</p>
+          </section>
+        <section class="item"> <img src="images/poster1.jpg" alt="XXXXX" />
+          <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+        </section>
+        <section class="item"> <img src="images/poster2.jpg" alt="XXXXX" />
+          <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+        </section>
+        <section class="item last"> <img src="images/poster3.jpg" alt="XXXXX" />
+          <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+        </section>
+        <section class="item"> <img src="images/poster4.jpg" alt="XXXXX" />
+          <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+        </section>
+        <section class="item"> <img src="images/poster5.jpg" alt="XXXXX" />
+          <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+        </section>
+        <section class="item last"> <img src="images/poster6.jpg" alt="XXXXX" />
+          <p>XXXXXXXXXXXXXXXXXXXXXX</p>
+        </section>
+      </section>
+      </article>
+      
+      <!--aside-->
+      <aside id="profile">
+          <h2>Profile</h2>
+      <div class="photo"><img src="images/photo.jpg" src="" width="150" height="150" alt="写真" /></div>
+      <section class="info"><p>●●●●です。よろしくお願いいたします。</p>
+      <dl>
+        <dt>使用ソフト</dt>
+        <dd>Illustratorm、Photoshop、Deramweaver、Office、テキストエディタ　等</dd>
+        <dt>使用言語</dt>
+       <dd> HTML、CSS、Javascript、PHP　等</dd>
+        <dt>作成可能なもの</dt>
+        <dd>名刺、DM、チラシ、フライヤー、ポスター等、Webサイト　等</dd>
+      </dl>
+      </section>
+      </aside>
+      
+  </div>
+  <!--contents end--> 
+  
+  <!-- pagetopBtn --> 
+  <div><a href="#container" id="pagetopBtn">TOP</a></div>
+ 
+  <footer>
+    <p><small>Copyright(c) 2014 Sample. All Rights Reserved.</small></p>
+  </footer>
+</div>
+<!--container end-->
+</body>
+</html>

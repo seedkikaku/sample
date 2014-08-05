@@ -1,0 +1,207 @@
+@charset "UTF-8";/* lesson2 */
+/*body全体*/
+
+body {
+	background-color: #fff;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+a {
+	display: block;
+	text-decoration: none;
+}
+a:hover {
+	opacity: 0.5;
+}
+/*==========================================
+ ページ全体のレイアウト
+===========================================*/
+#container {
+	width: 960px;
+	margin: 0 auto;
+}
+header {
+	width: 100%;
+	margin-bottom: 40px;
+}
+#contents {
+	width: 790px;
+	margin: 0 auto;
+}
+footer {
+	width: 100%;
+}
+/*==========================================
+ headerのスタイル
+===========================================*/
+.logo {
+	float: left;
+	width: 250px;
+}
+/*Global Navigation*/
+nav {
+	float: right;
+	width: 400px;
+	margin-top: 30px;
+	font-size: 16px;
+}
+nav ul {
+	overflow: hidden;
+}
+nav ul li {
+	float: left;
+	margin-left: 30px;
+	line-height: 2;
+}
+nav ul li a {
+	color: #666;
+}
+/*Eye catch image*/
+#mainImage {
+	clear: both;
+	width: 100%;
+}
+/*====================================================
+ contents　aside
+=====================================================*/
+h2 {
+	font-size: 18px;
+	color: #999;
+	text-align: center;
+	width: 300px;
+	border: #999 1px solid;
+	padding: 5px;
+	margin: 0 auto 20px;
+}
+#contents aside {
+	overflow: hidden;
+	margin-bottom: 76px;
+}
+.information {
+	float: left;
+	width: 230px;
+	margin-right: 50px
+}
+.information img {
+	margin-bottom: 12px;
+}
+.information h3 {
+	font-size: 14px;
+	line-height: 1.2;
+	margin-bottom: 6px;
+}
+.information p {
+	font-size: 12px;
+	line-height: 1.7;
+}
+/*====================================================
+  contents　article
+=====================================================*/
+#contents article h3 {
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+#contents #illustration, #contents #poster {
+	overflow: hidden;
+	margin-bottom: 70px;
+}
+.Head {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.Head h3 {
+	font-size: 36px;
+	line-height: 1.2;
+	color: #666;
+	margin-bottom: 20px;
+}
+.Head p {
+	font-size: 18px;
+	line-height: 1.2;
+}
+.item {
+	float: left;
+	width: 230px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+.item img {
+	margin-bottom: 10px;
+}
+.item p {
+	font-size: 12px;
+	line-height: 1.2;
+}
+.last {
+	margin-right: 0px;
+}
+/*==========================================
+ #profileのスタイル
+===========================================*/
+#profile {
+	background: #eee;
+	padding: 10px;
+}
+#profile .photo {
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 10px 30px 0 40px;
+	border-right: #999 1px solid;
+	border-bottom: #999 1px solid;
+}
+#profile .info {
+	width: 520px;
+	float: right;
+	text-align: left;
+}
+#profile .info p {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+#profile .info dt {
+	font-size: 14px;
+	line-height: 2.0;
+	color: #999;
+	padding-bottom: 5px;
+	border-bottom: 1px #999 dotted;
+}
+#profile .info dd {
+	font-size: 14px;
+	line-height: 2.0;
+	color: #666;
+	margin-bottom: 20px;
+}
+/*==========================================
+ footerのスタイル
+===========================================*/
+
+footer p {
+	width: 100%;
+	padding: 20px 0 10px;
+	background: #ccc;
+}
+footer small {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 10px;
+}
+/*==========================================
+ #pagetopBtn
+===========================================*/
+a#pagetopBtn {
+	display: block;
+	z-index: 9999;
+	width: 50px;
+	height: 50px;
+	background-color: #CCC;
+	position: fixed;
+	bottom: 60px;
+	right: 10px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+}
